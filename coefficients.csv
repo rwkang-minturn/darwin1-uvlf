@@ -1,0 +1,31 @@
+form,parameter,coefficient,value,err_minus,err_plus,submitted_v1,note
+schechter,alpha,p0 (constant),-2.2259,0.0204,0.0206,-2.0766,
+schechter,alpha,p1 (x z),0.0052,0.0020,0.0020,-0.0078,
+schechter,alpha,p2 (x delta),-0.1212,0.0269,0.0263,0.1004,
+schechter,Mstar,p0 (constant),-22.8047,0.1005,0.0999,-23.0587,
+schechter,Mstar,p1 (x z),0.2229,0.0099,0.0099,0.2432,
+schechter,Mstar,p2 (x delta),-1.9947,0.1302,0.1296,-1.8685,
+schechter,logphi,p0 (constant),-3.6634,0.0355,0.0353,-3.6724,
+schechter,logphi,p1 (x z),-0.0895,0.0035,0.0035,-0.0849,
+schechter,logphi,p2 (x ln(1+delta)),1.2642,0.0458,0.0447,1.2385,
+schechter,alpha,intrinsic scatter,0.0965,,,,"dex for logphi, mag for Mstar"
+schechter,Mstar,intrinsic scatter,0.4730,,,,"dex for logphi, mag for Mstar"
+schechter,logphi,intrinsic scatter,0.1435,,,,"dex for logphi, mag for Mstar"
+schechter,fit,chi2/dof (no intrinsic scatter),5.40,,,,"2-stage fit with stage-1 uncertainties; emcee 50x10000, burn-in 1000"
+dpl,alpha,p0 (constant),-2.3435,0.0366,0.0362,-2.1873,
+dpl,alpha,p1 (x z),0.0328,0.0037,0.0037,0.0213,
+dpl,alpha,p2 (x delta),0.1744,0.0489,0.0496,0.2897,
+dpl,Mstar,p0 (constant),-21.7971,0.0605,0.0600,-21.8584,
+dpl,Mstar,p1 (x z),0.2879,0.0060,0.0059,0.2893,
+dpl,Mstar,p2 (x delta),-0.6597,0.0825,0.0837,-0.5671,
+dpl,logphi,p0 (constant),-3.0452,0.0447,0.0448,-3.0317,
+dpl,logphi,p1 (x z),-0.0510,0.0044,0.0044,-0.0465,
+dpl,logphi,p2 (x ln(1+delta)),2.3168,0.0573,0.0573,2.0342,
+dpl,beta,p0 (constant),-3.2143,0.0740,0.0744,-2.9269,
+dpl,beta,p1 (x z),0.0034,0.0074,0.0073,-0.0242,
+dpl,beta,p2 (x delta),0.1282,0.0980,0.0983,0.4562,
+dpl,alpha,intrinsic scatter,0.1630,,,,"dex for logphi, mag for Mstar"
+dpl,Mstar,intrinsic scatter,0.1765,,,,"dex for logphi, mag for Mstar"
+dpl,logphi,intrinsic scatter,0.1606,,,,"dex for logphi, mag for Mstar"
+dpl,beta,intrinsic scatter,0.3059,,,,"dex for logphi, mag for Mstar"
+dpl,fit,chi2/dof (no intrinsic scatter),2.64,,,,"2-stage fit with stage-1 uncertainties; emcee 50x10000, burn-in 1000"
